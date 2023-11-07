@@ -5,16 +5,24 @@
   "type": "module",
   "scripts": {
     "dev": "vite & npx tailwindcss -i ./src/style.css -o ./dist/map.css --watch",
+    "merge": "node src/helpers/mergeData.cjs",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.0.18",
     "@vueuse/core": "^10.5.0",
     "leaflet": "^1.9.4",
+    "turf-jenks": "^1.0.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
+    "csvtojson": "^2.0.10",
+    "geojson": "^0.5.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "nodemon": "^3.0.1",
     "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
   }
