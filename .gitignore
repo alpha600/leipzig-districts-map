@@ -28,3 +28,6 @@ dist-ssr
 
 /data/*
 !/data/merged/
+
+*.csv#
+*.json#
