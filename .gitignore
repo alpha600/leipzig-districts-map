@@ -25,3 +25,6 @@ dist-ssr
 
 .env
 .db.json
+
+/data/*
+!/data/merged/
