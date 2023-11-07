@@ -3,7 +3,7 @@
 
 
 <template>
-    <div class="absolute inset-0 flex items-center justify-center w-screen h-screen bg-black">
+    <div class="absolute inset-0 flex items-center justify-center w-screen h-full bg-black">
         <div class="flex items-center justify-center lds-ripple">
             <div></div>
             <div></div>
